@@ -43,8 +43,8 @@ export default function Sidefod(){
                     <NavLink className="footerlogo" to="/Forside"> <img src={footerlogo} alt="Footer logo"/> </NavLink>
                         <h3>Følge os</h3>
                          <div className="someIcons">
-                         <FontAwesomeIcon  icon={faFacebookSquare}></FontAwesomeIcon>
-                         <FontAwesomeIcon  icon={faLinkedin}></FontAwesomeIcon>
+                         <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fb-icon"  icon={faFacebookSquare}></FontAwesomeIcon></NavLink>
+                         <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="lin-icon" icon={faLinkedin}></FontAwesomeIcon></NavLink>
                          </div>
                 </div>
             </nav>

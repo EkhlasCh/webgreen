@@ -36,7 +36,7 @@
   position: relative;
   color: #F0EBE8;
   background-size: cover;
-  background-image: url(../src/images/comFooterBack.png);
+  background-image: url(../src/images/nyFooterBg.jpg);
 
 }
 
@@ -79,8 +79,8 @@
   text-align: center;
 }
 .footerlogo{
-  height: 5cm;
-  width: 10cm;
+  height: 10cm;
+  width: 20cm;
 }
 
 .someIcons{
@@ -89,7 +89,14 @@
   margin-left: 70px;
   margin-right: 70px;
   justify-content: space-around;
-  font-size: xx-large;
+  font-size: 60px;
+}
+.lin-icon:hover, .fb-icon:hover{
+ color:#DEC271;
+}
+
+.iconeLink{
+  color: #F0EBE8;
 }
 
 

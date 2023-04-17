@@ -1,7 +1,7 @@
 
 //Insert video in background. kilde: https://www.youtube.com/watch?v=LSRNmhLS76o
 import videobg from '../assets/comSurf.mp4';
-import animation from "../images/flipkort/AnimationBehShortPx+blur.png";//kilde:http://lam-ictm.weebly.com/file-types.html
+import animation from "../images/flipkort/files.svg";//kilde:http://lam-ictm.weebly.com/file-types.html
 import KompVideo from "../images/flipkort/KompVideoBehshortPx.png";
 import vælgeSkriftTypeBehShortpx from "../images/flipkort/vælgeSkriftTypeBehShortpx.png";
 import freegif from "../images/flipkort/freeGifBehShortpx.png";
@@ -401,52 +401,6 @@ export default function Forside() {
                     </div>
             </div>
         </div>
-
-
-
-
-
-
-        <div className='f-bookmøde'>
-                
-                <h1>Book møde med os idag</h1>
-                <br/>
-                <p> <br/> 
-                    Kunne ord som system font og green hosting lige så godt være russiske fraser?Bare rolig vi er passionerede omkring at gøre webdesign mere bæredygtigt og varetager alle opgaver i udviklingen, så du kan bruge din tid på at udvikle din forretning.<br/>
-                    <br/>
-                    Du kan trygt ligge udviklingen af dit nye website i vores hænder. 
-                    Vi hjælper dig fra A-Z med at optimere dit website til at have mindre påvirkning på miljøet end de gængse websites derude.
-                    <br/>
-                    <br/>
-                    Vi er altid opdateret på den nyeste viden og teknologier indenfor grønnere webdesign, så du ikke behøver at være det. 
-                    <br/>
-                     Book et møde idag og bliv klogere på hvordan vi kan hjælpe dig godt på vej i din rejse mod en mere bæredygtig digital fremtid.</p>
-                               
-                    </div>
-
-                    <div className="f-button">
-                        <button className="btn-bookmøde" onClick={navigateToBookmøde}>BOOK MØDE</button>
-                    </div>
-                
-                <div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

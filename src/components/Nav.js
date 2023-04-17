@@ -9,10 +9,10 @@ export default function Nav(){
         <nav className="globalnavigation">
             <NavLink className="navpunkt" to="/omos">Om os</NavLink>
             <NavLink className="navpunkt" to="/projekter">Projekter</NavLink>
-            <NavLink className="navpunkt" to="/Forside"> <Lottie animationData={animlogo} loop={true} height={800} widt={1000}/> </NavLink>
+            <NavLink className="navpunkt" to="/"> <Lottie animationData={animlogo} loop={true} height={800} widt={1000}/> </NavLink>
             <NavLink className="navpunkt" to="/bookmøde">Book møde</NavLink>
             <NavLink className="navpunkt" to="/kontakt">Kontakt</NavLink>
-
+            
         </nav>
     )
 }

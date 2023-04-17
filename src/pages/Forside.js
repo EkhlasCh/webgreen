@@ -407,15 +407,11 @@ export default function Forside() {
 
 
 
-
-
-
-
         <div className='f-bookmøde'>
                 
                 <h1>Book møde med os idag</h1>
                 <br/>
-                <p>Har du en travl hverdag med fuldt fokus på din forretningsudvikling? <br/> 
+                <p> <br/> 
                     Kunne ord som system font og green hosting lige så godt være russiske fraser?Bare rolig vi er passionerede omkring at gøre webdesign mere bæredygtigt og varetager alle opgaver i udviklingen, så du kan bruge din tid på at udvikle din forretning.<br/>
                     <br/>
                     Du kan trygt ligge udviklingen af dit nye website i vores hænder. 
@@ -432,6 +428,9 @@ export default function Forside() {
                         <button className="btn-bookmøde" onClick={navigateToBookmøde}>BOOK MØDE</button>
                     </div>
                 
+                <div>
+
+
 
 
 

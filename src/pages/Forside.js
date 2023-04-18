@@ -1,7 +1,7 @@
 
 //Insert video in background. kilde: https://www.youtube.com/watch?v=LSRNmhLS76o
 import videobg from '../assets/comSurf.mp4';
-import animation from "../images/flipkort/files.svg";//kilde:http://lam-ictm.weebly.com/file-types.html
+import animation from "../images/flipkort/filtryperBehShortPX+blur+hue.png";//kilde:http://lam-ictm.weebly.com/file-types.html
 import KompVideo from "../images/flipkort/KompVideoBehshortPx.png";
 import vælgeSkriftTypeBehShortpx from "../images/flipkort/vælgeSkriftTypeBehShortpx.png";
 import freegif from "../images/flipkort/freeGifBehShortpx.png";
@@ -18,7 +18,7 @@ import typografi from "../images/flipkort/typoBehshortPx+blur.png"; //kilde:http
 import Filtyper from "../images/flipkort/filtryperBehShortPX+blur+hue.png"; //kilde:https://digitalfoto.dk/billedbehandling/faa-styr-paa-filformaterne-til-fotos
 //kilde for gif-filer anvendt under animation afsnit: https://giphy.com/explore/film-clapper 
 
-//rediirect to another page on button click: https://bobbyhadz.com/blog/react-onclick-redirect
+//redirect to another page on button click: https://bobbyhadz.com/blog/react-onclick-redirect
 import {useNavigate} from 'react-router-dom';
 
 export default function Forside() {

@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import footerlogo from "../images/comLogoFoot.png"
+import footerlogo from "../images/hvidt logo.svg"
+import manifest from "../images/manifest logo.svg"
 
 //kilde To add brands-icons https://www.youtube.com/watch?v=L4CK3j72SfM
 //anvendt komandoere: npm i --save @fortawesome/fontawesome-svg-core
@@ -27,6 +28,13 @@ export default function Sidefod(){
                         </p>
                         <NavLink className="footerlink"> <b>Telefon: </b>47 89 56 67</NavLink>
                         <NavLink className="footerlink"> <b>Mail: </b> info@greenwave.dk</NavLink>
+                        <div className="someIcons-F">
+                            <h3>Følge os</h3>
+                            <div className="brandsIcons"> 
+                                <NavLink className="iconeLink-F" to="/"><FontAwesomeIcon className="fb-icon-F"  icon={faFacebookSquare}></FontAwesomeIcon></NavLink>
+                                <NavLink className="iconeLink-F" to="/"><FontAwesomeIcon className="lin-icon-F" icon={faLinkedin}></FontAwesomeIcon></NavLink>
+                            </div>
+                         </div>
                 </div>
 
                 <div className="footerGenvej">
@@ -36,16 +44,13 @@ export default function Sidefod(){
                     <NavLink className="footerlink">Jobs</NavLink> 
                     <NavLink className="footerlink">Privatlivspolitik </NavLink>
                     <NavLink className="footerlink"> Cookies </NavLink>
+                  
                 </div>
 
                 
-                <div className="some">
+                <div className="logoer">
                     <NavLink className="footerlogo" to="/Forside"> <img src={footerlogo} alt="Footer logo"/> </NavLink>
-                        <h3>Følge os</h3>
-                         <div className="someIcons">
-                         <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fb-icon"  icon={faFacebookSquare}></FontAwesomeIcon></NavLink>
-                         <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="lin-icon" icon={faLinkedin}></FontAwesomeIcon></NavLink>
-                         </div>
+                    <img  className="manifest" src={manifest} alt="manifest"/>     
                 </div>
             </nav>
         </footer>

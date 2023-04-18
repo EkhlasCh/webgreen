@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFacebookSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 //lært at embedde icons fra: https://www.youtube.com/watch?v=7fdpzXeXbcE 
-import { faEnvelope, faLightbulb, faMountain } from '@fortawesome/free-solid-svg-icons' //kilde:(https://fontawesome.com/icons/mountain?f=classic&s=solid) og (https://fontawesome.com/icons/lightbulb?f=classic&s=solid)
+import { faLightbulb, faMountain } from '@fortawesome/free-solid-svg-icons' //kilde:(https://fontawesome.com/icons/mountain?f=classic&s=solid) og (https://fontawesome.com/icons/lightbulb?f=classic&s=solid)
 
 //wavybanner lært fra:https://www.youtube.com/watch?v=yRZALD0oNgU
 //Hentet fra: https://getwaves.io/
@@ -85,7 +85,7 @@ export default function Omos() {
                                         Design, UX og webudvikling</p>
                                 <div className="icons">
                                 <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands fa-facebook"  icon={faFacebookSquare}></FontAwesomeIcon></NavLink>
-                                <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></NavLink>
+                                <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands linkedin" icon={faLinkedin}></FontAwesomeIcon></NavLink>
                                 </div>
                             </div>
                         </div>
@@ -101,10 +101,10 @@ export default function Omos() {
                                 <h2 className="teamh2">Astrid</h2>
                                 <p className="teamP">
                                             astrid@gwd.dk <br></br> 
-                                            Design, content og webudvikling</p>
+                                            Design og webudvikling</p>
                                 <div className="icons">
                                 <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands fa-facebook"  icon={faFacebookSquare}></FontAwesomeIcon></NavLink>
-                                <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></NavLink>
+                                <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands linkedin" icon={faLinkedin}></FontAwesomeIcon></NavLink>
                                 </div>
                             </div>
                         </div>
@@ -121,10 +121,10 @@ export default function Omos() {
                                 <h2 className="teamh2">Mira</h2>
                                 <p className="teamP">
                                     mira@gwd.dk<br></br> 
-                                    Content, copy og webudvikling</p>
+                                    Copy og webudvikling</p>
                                 <div className="icons">
                                 <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands fa-facebook"  icon={faFacebookSquare}></FontAwesomeIcon></NavLink>
-                                <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></NavLink>
+                                <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands linkedin" icon={faLinkedin}></FontAwesomeIcon></NavLink>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ export default function Omos() {
                                     Seo, UX og webudvikling</p>
                                 <div className="icons">
                                 <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands fa-facebook"  icon={faFacebookSquare}></FontAwesomeIcon></NavLink>
-                                <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></NavLink>
+                                <NavLink className="iconeLink" to="/"><FontAwesomeIcon className="fa-brands linkedin" icon={faLinkedin}></FontAwesomeIcon></NavLink>
                                 </div>
                             </div>
                         </div>

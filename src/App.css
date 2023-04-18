@@ -573,4 +573,28 @@ margin: 6px 0;
 }
 
 
+/*-----------------------------------------------------------Kontakt siden----------------------------*/
+/*---------kontakt text section------*/
+.kontaktside-container{
+  text-align: center;
+  padding: 5% 20% 5% 20%;
 
+}
+.kontakt-spg{
+  margin: 4%;
+}
+/*-----Kontakt links--------*/
+.KontakLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+.kontakSide-Icon{
+  font-size: 60px;
+  margin-bottom: 20%;
+}
+.k-søjle{
+  margin: 10% 0 10% 0;
+}

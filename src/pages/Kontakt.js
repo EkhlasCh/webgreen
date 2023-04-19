@@ -2,8 +2,17 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faEnvelopeOpenText, faHeadset, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 
+//!!!Har forsøgt at tilkoble Auto-Send  mail til gamil via emailjs-React ved at følge denne video: https://www.youtube.com/watch?v=NgWGllOjkbs
+// og har installeret denne kommando ( npm install emailjs-com --save), Men pga. tidmangel belv det droppet.
+//import emailjs from 'emailjs.com'!!!!;
+
+
+
 export default function Kontakt() {
     return (
+
+
+        
 
 
        
@@ -59,3 +68,4 @@ export default function Kontakt() {
     )
 
 }
+

@@ -1,4 +1,4 @@
-
+// images er blevet navngivet med de effekter, de forskellige images er behandlet med samt at det er er blevet komprimeret ligesom comSurf Dvs. video som hedder surf er komprimeret
 //Insert video in background. kilde: https://www.youtube.com/watch?v=LSRNmhLS76o
 import videobg from '../assets/comSurf.mp4';
 import animation from "../images/flipkort/filtryperBehShortPX+blur+hue.png";//kilde:http://lam-ictm.weebly.com/file-types.html
@@ -16,7 +16,7 @@ import oledskærme from "../images/flipkort/oledSkærmeBehPsd.png";//kilde:https
 import farver from "../images/flipkort/farverBehShort+blur.png"; //kilde:https://udforsksindet.dk/nogle-spaendende-fakta-om-farver/
 import typografi from "../images/flipkort/typoBehshortPx+blur.png"; //kilde:https://www.onlineplus.dk/dit-valg-typografi-kan-vise-sig-vaere-idioti/
 import Filtyper from "../images/flipkort/filtryperBehShortPX+blur+hue.png"; //kilde:https://digitalfoto.dk/billedbehandling/faa-styr-paa-filformaterne-til-fotos
-//kilde for gif-filer anvendt under animation afsnit: https://giphy.com/explore/film-clapper 
+//kilde for gif-filer anvendt under animation afsnit hentet fra: https://giphy.com/explore/film-clapper 
 
 //redirect to another page on button click: https://bobbyhadz.com/blog/react-onclick-redirect
 import {useNavigate} from 'react-router-dom';
